@@ -246,3 +246,9 @@ a {
 .muted {
   color: var(--muted);
 }
+
+/* Utilities used lightly by pages (kept minimal; Tailwind is still available) */
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
